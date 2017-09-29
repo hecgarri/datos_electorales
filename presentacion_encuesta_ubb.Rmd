@@ -1,0 +1,20 @@
+---
+title: "Untitled"
+author: "Héctor Garrido"
+date: "29 de septiembre de 2017"
+output: slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## R Markdown
+
+```{r, message=FALSE, echo = FALSE, message=FALSE}
+source('análisis_encuesta_ubb.R')
+source('cuadro_1.R')
+
+```
+
+<img src="pie.pdf" alt="some text"  width="600" height="600">
